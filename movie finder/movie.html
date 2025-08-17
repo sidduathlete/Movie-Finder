@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 Movie Finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><i class="ri-film-line"></i> Movie Finder</h1>
+        <div class="search-box">
+            <input type="text" id="movie-input" placeholder="Enter movie name...">
+            <button id="search-btn"><i class="ri-search-line"></i> Search</button>
+        </div>
+
+        <div class="movie-card hidden" id="card">
+            <img id="movie-poster" src="" alt="Movie Poster">
+            <div class="movie-details">
+                <h2 id="movie-title"></h2>
+                <p id="movie-rating"></p>
+                <p id="movie-description"></p>
+                <p><strong>Hero:</strong> <span id="movie-hero"></span></p>
+                <p><strong>Director:</strong> <span id="movie-director"></span></p>
+                <p><strong>Producer:</strong> <span id="movie-producer"></span></p>
+                <p><strong>Collection:</strong> <span id="movie-collection"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
